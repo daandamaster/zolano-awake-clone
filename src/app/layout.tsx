@@ -15,6 +15,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Zolano Installaties | Zonnepanelen, Warmtepompen, Airco & Laadpalen",
   description: "Erkend installatiebedrijf uit Arnhem. VCA**, STEK, F-gassen, ISSO. Landelijk actief. Eén partner van advies tot oplevering. Vrijblijvende offerte.",
+  robots: { index: false, follow: false, googleBot: { index: false, follow: false, noimageindex: true } },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
